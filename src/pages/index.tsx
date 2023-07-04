@@ -2,6 +2,6 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = 'title' }: Props) {
-  return <h1>{title}</h1>
+export default function Home({ title = 'title' }: Props): JSX.Element {
+  return <h2>{title}</h2>
 }
