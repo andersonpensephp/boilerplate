@@ -1,7 +1,5 @@
-type Props = {
-  title: string
-}
+import Main from 'components/Main/Main'
 
-const Home = ({ title = 'title' }: Props) => <h2>{title}</h2>
+const Home = () => <Main title="Hello!" />
 
 export default Home
