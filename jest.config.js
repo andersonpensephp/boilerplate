@@ -1,5 +1,4 @@
 module.exports = {
-  //testMatch: ['src/components/**/*.test.tsx'],
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
